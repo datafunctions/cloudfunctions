@@ -1,6 +1,6 @@
 import os
 
-project_id = os.environ['GCP_PROJECT']
+project_id = os.environ.get('GCP_PROJECT')
 print(project_id)
 
 
